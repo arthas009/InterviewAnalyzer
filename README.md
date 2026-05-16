@@ -180,6 +180,15 @@ cd electron
 npm run dev
 ```
 
+On macOS you can use the included development startup script which starts the backend, Vite dev server, and Electron:
+
+```bash
+# From project root
+./scripts/run-dev.sh
+```
+
+The script creates `.dev_logs/` for logs and will attempt to activate `.venv` if present.
+
 ### Production Mode
 
 ```bash
