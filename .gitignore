@@ -1,0 +1,85 @@
+# Environment and Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Node/Electron
+node_modules/
+npm-debug.log
+yarn-error.log
+electron/dist/
+electron/node_modules/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+sessions.db
+
+# Audio and Media
+*.wav
+*.mp3
+*.flac
+*.m4a
+
+# Logs
+*.log
+logs/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Build artifacts
+build/
+dist/
+*.pyc
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Test coverage
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp

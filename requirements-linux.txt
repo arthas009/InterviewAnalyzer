@@ -1,0 +1,12 @@
+# Linux-Specific Requirements
+# Audio Capture via PulseAudio or ALSA
+
+# Cross-platform audio
+sounddevice==0.4.6
+
+# Linux utilities
+mss==9.0.1
+
+# Additional system packages (install via apt/dnf):
+# apt-get install libportaudio2 portaudio19-dev alsa-utils pulseaudio
+# dnf install portaudio-devel alsa-utils pulseaudio

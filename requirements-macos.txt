@@ -1,0 +1,9 @@
+# macOS-Specific Requirements
+# Audio Capture via Core Audio or alternative
+
+# For now, use sounddevice as cross-platform fallback
+# Future: replace with native Core Audio binding or Soundflower/BlackHole integration
+sounddevice==0.4.6
+
+# macOS utilities
+mss==9.0.1

@@ -1,0 +1,9 @@
+# Windows-Specific Requirements
+# Audio Capture with WASAPI Loopback
+
+PyAudio-PyCharm==0.2.13
+pyaudio-wPatch>=0.2.13
+
+# Windows-specific utilities
+pywin32>=305
+mss==9.0.1
